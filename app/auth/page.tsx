@@ -11,11 +11,11 @@ const loginPage = () => {
     }
   }, []);
   return (
-    <main className="h-full w-full flex justify-center items-center">
-      <div className="mt-32  py-8 px-6 backdrop:blur-md flex w-2/3 flex-col border rounded-lg">
-        <div className=" text-white text-4xl font-bold mb-2">Login</div>
-        <div className=" text-white text-2xl font-bold mb-6">
-          Login with college Domain Id
+    <main className=" mb-14 h-full w-full flex justify-center items-center">
+      <div className="mt-32 py-8 px-6 backdrop:blur-lg flex w-2/3 flex-col border rounded-lg bg-gradient-to-b from-transparent via-purple-900 to-transparent bg-opacity-30 shadow-inner">
+        <div className="text-white text-4xl mb-2">Authenticate Yourself</div>
+        <div className="text-white text-2xl mb-6">
+          Provide your college ID and we'll Authenticate you
         </div>
         <form className="flex flex-col gap-4 z-20">
           <input

@@ -40,10 +40,10 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
           <Link
-            href={"/login"}
+            href={"/auth"}
             className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           >
-            <p className="px-6">Login</p>
+            <p className="px-6">Authenticate</p>
           </Link>
         </div>
       </div>
