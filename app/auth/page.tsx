@@ -17,7 +17,7 @@ const loginPage = () => {
       {/*
        * //TODO: Setup glass morphoism here
        */}
-      <div className="mt-32 py-8 px-6 bg-blur-lg flex w-2/3 flex-col border rounded-lg bg-gradient-to-b from-transparent via-purple-900 to-transparent bg-opacity-30 shadow-inner">
+      <div className="mt-32 py-8 px-6 bg-blur-lg flex w-2/3 flex-col border rounded-lg bg-gradient-to-b from-transparent via-purple-900 to-transparent bg-opacity-10 shadow-inner">
         <div className="text-white text-4xl mb-2">Authenticate Yourself</div>
         <div className="text-white text-2xl mb-6">
           Provide your college ID and we&apos;ll Authenticate you
