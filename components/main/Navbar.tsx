@@ -26,7 +26,10 @@ const Navbar = () => {
 
         <div className="hidden md:block mt-4 w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
+            {/*
+             * //TODO: Go to individual pages
+             */}
+            <a href="/#about-me" className="cursor-pointer">
               About US
             </a>
             <a href="#skills" className="cursor-pointer">
@@ -40,10 +43,10 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
           <Link
-            href={"/login"}
+            href={"/auth"}
             className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           >
-            <p className="px-6">Login</p>
+            <p className="px-6">Authenticate</p>
           </Link>
         </div>
       </div>
