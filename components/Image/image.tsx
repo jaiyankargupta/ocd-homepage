@@ -3,13 +3,13 @@ import twitterlogo from "./twitter.png";
 import linkedinlogo from "./linkedin.png";
 import githublogo from "./github.png";
 
-function ProfilePicture({ twitterLink, linkedinLink, githubLink, userPhoto }) {
+function ProfilePicture({}) {
   return (
     <>
       <Image src={githublogo} objectFit="cover" alt="User Profile" width={60} height={70} />
       <div className="mt-4">
         <a
-          href={githubLink}
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-700 hover:underline flex items-center"
@@ -25,7 +25,7 @@ function ProfilePicture({ twitterLink, linkedinLink, githubLink, userPhoto }) {
         </a>
         <div className="">
           <a
-            href={linkedinLink}
+            href= '#'
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 hover:underline flex items-center"
@@ -42,7 +42,7 @@ function ProfilePicture({ twitterLink, linkedinLink, githubLink, userPhoto }) {
         </div>
         <div className="">
           <a
-            href={twitterLink}
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-700 hover:underline flex items-center"

@@ -1,12 +1,12 @@
-import ProfilePicture from './Image/image';
-import Openedu from './openedu/openedu';
-import Codingplatform from './codingplatform/codingplatform';
-import Notification from './notification/notification';
-import Experience from './experience/experience';
-import Projects from './projects/projects';
-import Education from './education/education'
+import ProfilePicture from '../../components/Image/image';
+import Openedu from '../../components/openedu/openedu';
+import Codingplatform from '../../components/codingplatform/codingplatform';
+import Notification from '../../components/notification/notification';
+import Experience from '../../components/experience/experience';
+import Projects from '../../components/projects/projects';
+import Education from '../../components/education/education'
 
-export default function Dashboard({userName,userEmailID,userBranch,userSection,userStat,}) {
+export default function Dashboard({}) {
   return (
     <>
       <main className="text-white flex justify-center mt-16 pt-10 pr-16 pl-16">
@@ -20,11 +20,11 @@ export default function Dashboard({userName,userEmailID,userBranch,userSection,u
             
             {/* Section 2: Details */}
             <div className="flex-1 flex flex-col gap-1 pl-2 pr-2 mt-4 text-lg font-bold"> {/* Adjusted padding */}
-              <div>Name : <span className='font-normal'>Rahul Kumar{userName}</span></div>
-              <div >Email : <span className='font-normal'>jaiyankargupta@gmail.com{userEmailID}</span></div>
-              <div>Branch : <span className='font-normal'>Computer Engineering {userBranch}</span></div>
-              <div>Section : <span className='font-normal'>CS-C {userSection}</span></div>
-              <div>Stat : <span className='font-normal'>Admin{userStat}</span></div>
+              <div>Name : <span className='font-normal'>{}</span></div>
+              <div >Email : <span className='font-normal'>{}</span></div>
+              <div>Branch : <span className='font-normal'>{}</span></div>
+              <div>Section : <span className='font-normal'>{}</span></div>
+              <div>Stat : <span className='font-normal'>{}</span></div>
               
              
             </div>
